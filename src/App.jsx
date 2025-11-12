@@ -1,3 +1,4 @@
+import BreedCharts from "./Components/BreedCharts.jsx";
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 import CatInfo from "./Components/CatInfo.jsx";
@@ -149,6 +150,8 @@ function App() {
             {stats.median ? stats.median.toFixed(1) : "—"} years
           </div>
         </div>
+        
+        <BreedCharts breeds={filteredResults} />
 
         <div className="list-area">
           {loading ? (
