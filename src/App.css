@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.whole-page {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #1e1e2f;
+  min-height: 100vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+input, select {
+  margin-right: 10px;
+  padding: 5px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.controls {
+  margin-bottom: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.summary {
+  background-color: #2a2a3d;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }
 
-.card {
-  padding: 2em;
+.cat-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1rem;
+  background-color: #2e2e40;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.cat-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.sidenav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #151522;
+  color: white;
+  width: 250px;
+  height: 100%;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.whole-page {
+  margin-left: 270px;
 }
