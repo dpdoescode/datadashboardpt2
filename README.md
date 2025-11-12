@@ -45,7 +45,8 @@ GIF created with [Kap](https://getkap.co/) for macOS
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+ - Having to decide between manually adding cat images (costly) or being fine with not having images but having an efficient page
 
 ## License
 
